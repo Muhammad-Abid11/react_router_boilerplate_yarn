@@ -1,9 +1,10 @@
 import React from "react";
+import AppRouter from "./config/router";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello React Router</h1>
+        <AppRouter />
       </div>
     )
   }
