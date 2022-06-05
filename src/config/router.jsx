@@ -17,7 +17,8 @@ class AppRouter extends React.Component {
                     //     In the latest version of React_Router,
                     // 'Switch' is replaced with 'Routes' and
                     // 'component' is replaced with 'element'
-                    //Also changes in "import"
+                    //Also some changes in "import"
+                    // Also, component and exact have been removed in newer version.
                 }
 
                 <BrowserRouter>
